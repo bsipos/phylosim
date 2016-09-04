@@ -64,7 +64,7 @@
 #	The examples below demonstrate only some more common simulation settings,
 #	the framework offers much more flexibility. See the package
 #	vignette (\code{vignette("PhyloSim",package="phylosim")}) and the
-#	examples directory (\url{http://github.com/sbotond/phylosim/tree/master/examples/}) 
+#	examples directory (\url{http://github.com/bsipos/phylosim/tree/master/examples/}) 
 #	for additional examples.
 #	
 #	@classhierarchy
@@ -96,7 +96,7 @@
 #	## The following examples demonstrate
 #	## the typical use of the framework.
 #	## See the package vignette and
-#	## \url{http://github.com/sbotond/phylosim/tree/master/examples/}
+#	## \url{http://github.com/bsipos/phylosim/tree/master/examples/}
 #
 #	## The ll() method gives information about the methods defined
 #	## in the immediate class of an object.
@@ -221,7 +221,7 @@
 #	# delete Fasta file
 #	unlink(file);
 #
-#   # See \url{http://github.com/sbotond/phylosim/tree/master/examples/examples_class.R}
+#   # See \url{http://github.com/bsipos/phylosim/tree/master/examples/examples_class.R}
 #   # for the full list of PhyloSim constructor examples.
 #   
 #	## See the package vignette and 

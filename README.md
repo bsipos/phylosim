@@ -1,5 +1,5 @@
 
-![Gillespie algorithm](https://raw.github.com/sbotond/phylosim/master/misc/gillespie.png)
+![Gillespie algorithm](https://raw.github.com/bsipos/phylosim/master/misc/gillespie.png)
 
 PhyloSim
 ========
