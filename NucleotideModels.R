@@ -3952,7 +3952,7 @@ setMethodS3(
 ## Constructor: K81
 ##	
 ## M. Kimura, Estimation of evolutionary sequences between homologous nucleotide sequences,
-## Proc. Natl. Acad. Sci. USA 78 (1981), pp. 454–458.
+## Proc. Natl. Acad. Sci. USA 78 (1981), pp. 454-458.
 ##
 ##########################################################################/** 
 #

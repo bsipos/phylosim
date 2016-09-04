@@ -784,7 +784,7 @@ setConstructorS3(
 #
 # \references{
 # Rota-Stabelli, O., Z. Yang, and M. Telford. (2009) MtZoa: a general mitochondrial amino acid 
-# substitutions model for animal evolutionary studies. Mol. Phyl. Evol 52(1):268-72 \url{http://bit.ly/bjZfKi}
+# substitutions model for animal evolutionary studies. Mol. Phyl. Evol 52(1):268-72 \url{http://bit.ly/2bMbGAl}
 # }
 #	
 # @synopsis
