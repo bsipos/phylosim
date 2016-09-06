@@ -18,7 +18,9 @@ sc: *.R
 	(rm -f pkg/R/*.R;true)
 	cp *.R pkg/R/
 rd: *.R
-	( cd pkg/; R --vanilla < ../misc/compileman.R; perl ../misc/RdClean.pl)
+	cp pkg/DESCRIPTION ../
+	(R --vanilla < ./misc/compileman.R; perl ./misc/RdClean.pl)
+	rm ../DESCRIPTION
 pkg: cat sc *.R
 	(rm PhyloSimSource.R;true)
 	cp PAMLdat/*.dat pkg/inst/extdata/

@@ -2,10 +2,11 @@
 use strict;
 use warnings;
 
-chdir("./man");
+chdir("./pkg/man");
 
 for my $file (<*.Rd>){
 
+	#print $file, "\n";
 	open(IN,"<$file");
 	my @lines = <IN>;
 	close(IN);
@@ -13,8 +14,11 @@ for my $file (<*.Rd>){
 	open(OUT,">$file");
 	for my $l (@lines){
 		if( ($l !~ /^ \\tab \\code\{\.\S+\} \\tab  -\\cr\n$/) and
-		    ($l !~ /\\keyword{.+}/)	
+		    ($l !~ /\\keyword\{.+\}/)	
 		   ){
+
+			$l =~ s/\[R_GlobalEnv\]//g;
+			$l =~ s/R_GlobalEnv//g;
 			print OUT $l;
 		}
 	}
