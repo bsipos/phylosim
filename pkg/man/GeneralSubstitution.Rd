@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ../PhyloSimSource.R
+%  PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -39,7 +39,7 @@
 \code{~~~~~~~~~~~~+--}\code{GeneralSubstitution}\cr
 
 \bold{Directly known subclasses:}\cr
-\link{AminoAcidSubst}, \link{BinarySubst}, \link{CodonUNREST}, \link{cpREV}, \link{F81}, \link{F84}, \link{GTR}, \link{GY94}, \link{HKY}, \link{JC69}, \link{JTT}, \link{JTT.dcmut}, \link{K80}, \link{K81}, \link{LG}, \link{mtArt}, \link{mtMam}, \link{mtREV24}, \link{MtZoa}, \link{PAM}, \link{PAM.dcmut}, \link{T92}, \link{TN93}, \link{UNREST}, \link{WAG}\cr
+\link{AminoAcidSubst}, \link{BinarySubst}, \link{CodonSubst}, \link{CodonUNREST}, \link{ECMrest}, \link{ECMunrest}, \link{F81}, \link{F84}, \link{GTR}, \link{GY94}, \link{HKY}, \link{JC69}, \link{JTT}, \link{JTT.dcmut}, \link{K80}, \link{K81}, \link{LG}, \link{MtZoa}, \link{PAM}, \link{PAM.dcmut}, \link{T92}, \link{TN93}, \link{UNREST}, \link{WAG}, \link{cpREV}, \link{mtArt}, \link{mtMam}, \link{mtREV24}\cr
 
 public static class \bold{GeneralSubstitution}\cr
 extends \link{Process}\cr
@@ -91,10 +91,11 @@ GeneralSubstitution(name="Anonymous", alphabet=NA, rate.list=NA, equ.dist=NA, ..
 !=, ==, as.character, checkConsistency, clone, getAlphabet, getEventsAtSite, getId, getName, getParameterAtSite, getSiteSpecificParamIds, getSiteSpecificParamList, getWriteProtected, hasSiteSpecificParameter, hasUndefinedRate, is, setAlphabet, setId, setName, setParameterAtSite, setSiteSpecificParamIds, setSiteSpecificParamList, setWriteProtected, summary
 
  \bold{Methods inherited from PSRoot}:\cr
-checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyCheck, intersect.list, is.na, is, ll, my.all.equal, plot, setComments, setMethodsList, summary, virtualAssignmentForbidden
+checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyCheck, intersect.list, is, is.na, ll, my.all.equal, plot, setComments, setMethodsList, summary, virtualAssignmentForbidden
 
  \bold{Methods inherited from Object}:\cr
-[[, [[<-, $, $<-, as.character, attach, attachLocally, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, gc, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, objectSize, print, registerFinalizer, save
+$, $<-, [[, [[<-, as.character, attach, attachLocally, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, names, objectSize, print, save
+
 
  }
 

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ../PhyloSimSource.R
+%  PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -23,7 +23,7 @@
 \code{~~+--}\code{PSRoot}\cr
 
 \bold{Directly known subclasses:}\cr
-\link{Alphabet}, \link{AminoAcidAlphabet}, \link{AminoAcidSequence}, \link{AminoAcidSubst}, \link{AnyAlphabet}, \link{BinaryAlphabet}, \link{BinarySequence}, \link{BinarySubst}, \link{BrownianInsertor}, \link{CodonAlphabet}, \link{CodonSequence}, \link{CodonUNREST}, \link{ContinuousDeletor}, \link{ContinuousInsertor}, \link{cpREV}, \link{DiscreteDeletor}, \link{DiscreteInsertor}, \link{Event}, \link{F81}, \link{F84}, \link{FastFieldDeletor}, \link{GeneralDeletor}, \link{GeneralInDel}, \link{GeneralInsertor}, \link{GeneralSubstitution}, \link{GTR}, \link{GY94}, \link{HKY}, \link{JC69}, \link{JTT}, \link{JTT.dcmut}, \link{K80}, \link{K81}, \link{LG}, \link{mtArt}, \link{mtMam}, \link{mtREV24}, \link{MtZoa}, \link{NucleotideAlphabet}, \link{NucleotideSequence}, \link{PAM}, \link{PAM.dcmut}, \link{PhyloSim}, \link{Process}, \link{QMatrix}, \link{Sequence}, \link{Site}, \link{T92}, \link{TN93}, \link{UNREST}, \link{WAG}\cr
+\link{Alphabet}, \link{AminoAcidAlphabet}, \link{AminoAcidSequence}, \link{AminoAcidSubst}, \link{AnyAlphabet}, \link{BinaryAlphabet}, \link{BinarySequence}, \link{BinarySubst}, \link{BrownianInsertor}, \link{CodonAlphabet}, \link{CodonSequence}, \link{CodonSubst}, \link{CodonUNREST}, \link{ContinuousDeletor}, \link{ContinuousInsertor}, \link{DiscreteDeletor}, \link{DiscreteInsertor}, \link{ECMrest}, \link{ECMunrest}, \link{Event}, \link{F81}, \link{F84}, \link{FastFieldDeletor}, \link{GTR}, \link{GY94}, \link{GeneralDeletor}, \link{GeneralInDel}, \link{GeneralInsertor}, \link{GeneralSubstitution}, \link{HKY}, \link{JC69}, \link{JTT}, \link{JTT.dcmut}, \link{K80}, \link{K81}, \link{LG}, \link{MtZoa}, \link{NucleotideAlphabet}, \link{NucleotideSequence}, \link{PAM}, \link{PAM.dcmut}, \link{PhyloSim}, \link{Process}, \link{QMatrix}, \link{Sequence}, \link{Site}, \link{T92}, \link{TN93}, \link{ToleranceSubstitution}, \link{UNREST}, \link{WAG}, \link{cpREV}, \link{mtArt}, \link{mtMam}, \link{mtREV24}\cr
 
 public static class \bold{PSRoot}\cr
 extends \link[R.oo]{Object}\cr
@@ -48,8 +48,8 @@ PSRoot(...)
  \tab \code{getMethodsList} \tab  -\cr
  \tab \code{globalConsistencyCheck} \tab  -\cr
  \tab \code{intersect.list} \tab  -\cr
- \tab \code{is.na} \tab  -\cr
  \tab \code{is} \tab  -\cr
+ \tab \code{is.na} \tab  -\cr
  \tab \code{ll} \tab  -\cr
  \tab \code{my.all.equal} \tab  -\cr
  \tab \code{plot} \tab  -\cr
@@ -61,7 +61,8 @@ PSRoot(...)
 
 
  \bold{Methods inherited from Object}:\cr
-[[, [[<-, $, $<-, as.character, attach, attachLocally, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, gc, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, objectSize, print, registerFinalizer, save
+$, $<-, [[, [[<-, as.character, attach, attachLocally, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, names, objectSize, print, save
+
 
  }
 

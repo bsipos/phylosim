@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ../PhyloSimSource.R
+%  PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -56,6 +56,7 @@ Event(name=NA, rate=NA, site=NA, position=NA, process=NA, handler=NA, ...)
  \section{Fields and Methods}{
  	\bold{Methods:}\cr
 \tabular{rll}{
+ \tab \code{Perform} \tab  -\cr
  \tab \code{as.character} \tab  -\cr
  \tab \code{checkConsistency} \tab  -\cr
  \tab \code{getHandler} \tab  -\cr
@@ -66,7 +67,6 @@ Event(name=NA, rate=NA, site=NA, position=NA, process=NA, handler=NA, ...)
  \tab \code{getSite} \tab  -\cr
  \tab \code{getWriteProtected} \tab  -\cr
  \tab \code{is} \tab  -\cr
- \tab \code{Perform} \tab  -\cr
  \tab \code{setHandler} \tab  -\cr
  \tab \code{setName} \tab  -\cr
  \tab \code{setPosition} \tab  -\cr
@@ -79,10 +79,11 @@ Event(name=NA, rate=NA, site=NA, position=NA, process=NA, handler=NA, ...)
 
 
  \bold{Methods inherited from PSRoot}:\cr
-checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyCheck, intersect.list, is.na, is, ll, my.all.equal, plot, setComments, setMethodsList, summary, virtualAssignmentForbidden
+checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyCheck, intersect.list, is, is.na, ll, my.all.equal, plot, setComments, setMethodsList, summary, virtualAssignmentForbidden
 
  \bold{Methods inherited from Object}:\cr
-[[, [[<-, $, $<-, as.character, attach, attachLocally, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, gc, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, objectSize, print, registerFinalizer, save
+$, $<-, [[, [[<-, as.character, attach, attachLocally, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, names, objectSize, print, save
+
 
  }
 

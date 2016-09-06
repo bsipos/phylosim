@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ../PhyloSimSource.R
+%  PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,10 +9,10 @@
  \name{Undocumented.PhyloSim}
 \alias{Undocumented.PhyloSim}
 \alias{PhyloSim.Undocumented}
-\alias{newMatrix}
-\alias{setEquDist.CodonSubst}
 \alias{Undocumented,PhyloSim-method}
  \alias{Undocumented}
+ \alias{newMatrix}
+ \alias{setEquDist.CodonSubst}
  \alias{BrownianPath}
  \alias{buildFromPAML}
  \alias{checkConsistency}

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ../PhyloSimSource.R
+%  PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -35,7 +35,7 @@
 \code{~~~~~~~+--}\code{Process}\cr
 
 \bold{Directly known subclasses:}\cr
-\link{AminoAcidSubst}, \link{BinarySubst}, \link{BrownianInsertor}, \link{CodonUNREST}, \link{ContinuousDeletor}, \link{ContinuousInsertor}, \link{cpREV}, \link{DiscreteDeletor}, \link{DiscreteInsertor}, \link{F81}, \link{F84}, \link{FastFieldDeletor}, \link{GeneralDeletor}, \link{GeneralInDel}, \link{GeneralInsertor}, \link{GeneralSubstitution}, \link{GTR}, \link{GY94}, \link{HKY}, \link{JC69}, \link{JTT}, \link{JTT.dcmut}, \link{K80}, \link{K81}, \link{LG}, \link{mtArt}, \link{mtMam}, \link{mtREV24}, \link{MtZoa}, \link{PAM}, \link{PAM.dcmut}, \link{T92}, \link{TN93}, \link{UNREST}, \link{WAG}\cr
+\link{AminoAcidSubst}, \link{BinarySubst}, \link{BrownianInsertor}, \link{CodonSubst}, \link{CodonUNREST}, \link{ContinuousDeletor}, \link{ContinuousInsertor}, \link{DiscreteDeletor}, \link{DiscreteInsertor}, \link{ECMrest}, \link{ECMunrest}, \link{F81}, \link{F84}, \link{FastFieldDeletor}, \link{GTR}, \link{GY94}, \link{GeneralDeletor}, \link{GeneralInDel}, \link{GeneralInsertor}, \link{GeneralSubstitution}, \link{HKY}, \link{JC69}, \link{JTT}, \link{JTT.dcmut}, \link{K80}, \link{K81}, \link{LG}, \link{MtZoa}, \link{PAM}, \link{PAM.dcmut}, \link{T92}, \link{TN93}, \link{ToleranceSubstitution}, \link{UNREST}, \link{WAG}, \link{cpREV}, \link{mtArt}, \link{mtMam}, \link{mtREV24}\cr
 
 public static class \bold{Process}\cr
 extends \link{PSRoot}\cr

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ../PhyloSimSource.R
+%  PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -22,12 +22,9 @@
  }
 
  \usage{
-\method{plot}{PhyloSim}(
-    x, plot.tree, plot.ancestors, plot.chars, plot.legend, 
-    plot.labels, aspect.ratio, num.pages, char.text.size, 
-    axis.text.size, color.scheme, color.branches, tree.xlim,
-    aln.xlim, tracks, aln.length.tolerance, plot.nongap.bl, ...
-    )
+\method{plot}{PhyloSim}(x, plot.tree, plot.ancestors, plot.chars, plot.legend, plot.labels, aspect.ratio,
+  num.pages, char.text.size, axis.text.size, color.scheme, color.branches, tree.xlim,
+  aln.xlim, tracks, aln.length.tolerance, plot.nongap.bl, ...)
 }
 
  \arguments{
