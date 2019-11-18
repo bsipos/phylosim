@@ -1,14 +1,17 @@
 Package: phylosim
-Version: 3.0.2
-Date: 2016-09-04
+Version: 3.0.5
+Date: 2019-06-25
 Title: Flexible Simulations of Biological Sequence Evolution
 Author: Botond Sipos <sbotond@gmail.com>, Gregory Jordan <greg@ebi.ac.uk>
 Maintainer: Botond Sipos <sbotond@gmail.com>
-Depends: R (>= 2.15.2), R.oo (>= 1.13.0), ape (>= 2.3), compoisson (>= 0.3), ggplot2 (>= 0.9.3)
-Suggests: 
+Depends: R (>= 2.15.2), R.oo (>= 1.13.0), ape (>= 2.3), compoisson (>=
+        0.3), ggplot2 (>= 0.9.3)
+Suggests:
 Imports: R.methodsS3
-Description: An extensible object-oriented framework for the Monte Carlo simulation of sequence evolution written in 100 percent R. It is built on the top of the R.oo and ape packages and uses Gillespie's direct method to simulate substitutions, insertions and deletions.
+Description: An extensible object-oriented framework for the Monte Carlo simulation of sequence evolution written in 100 percent R. It is built on the top of the R.oo and ape packages and uses Gillespie's direct method to simulate substitutions, insertions and deletions. Citation: Botond Sipos, Tim Massingham, Gregory E Jordan and Nick Goldman (2011) PhyloSim - Monte Carlo simulation of sequence evolution in the R statistical computing environment <doi:10.1186/1471-2105-12-104>.
 License: GPL (>= 3)
 URL: https://github.com/bsipos/phylosim
 LazyLoad: TRUE
-Packaged: 2016-09-04 12:00:00 UTC; bsipos
+Packaged: 2019-11-18 18:47:48 UTC; sb
+NeedsCompilation: no
+Repository: CRAN

@@ -2700,8 +2700,8 @@ setMethodS3(
 # value for each row in the track data frame to create a wiggle plot like effect.
 # \item y_hi - the upper Y offset (between 0 and 1) of the feature. Defaults to 1. Use just a y_hi value
 # for each row in the track data frame to create a bar plot like effect.
-# \item [the fields below are considered unique per track; the values from the first row in the track
-# data frame are used.]
+# \item {the fields below are considered unique per track; the values from the first row in the track
+# data frame are used.}
 # \item id - the display ID for the track. Defaults to 'Track'.
 # \item layout - set to 'above' to put the track above the alignment, 'below' for below.
 # \item height - the number of alignment rows for the track to span in height. Defaults to 3.
