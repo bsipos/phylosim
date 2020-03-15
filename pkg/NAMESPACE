@@ -2,7 +2,6 @@ exportPattern("^[^\\.]");
 import(grid)
 import(R.oo)
 import(ape)
-import(compoisson)
 import(ggplot2)
 importFrom("R.methodsS3", "setMethodS3")
 importFrom("grDevices", "col2rgb", "colorRamp", "colorRampPalette", "colors", "rgb")
